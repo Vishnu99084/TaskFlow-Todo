@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow - Welcome</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme">
+  <div class="hero">
+    <div class="title-section">
+      <h1>TaskFlow</h1>
+      <p>Your Personal Productivity Companion</p>
+      <small>🔒 Age verification required for access</small>
+    </div>
+    <form class="form-card" id="registrationForm">
+      <h2>Verify Your Identity</h2>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your full name" required />
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" required />
+      <p class="error" id="errorMsg"></p>
+      <button type="submit">✅ Verify & Continue</button>
+      <small class="legal-text">
+        By continuing, you confirm that you are over 10 years old.
+      </small>
+    </form>
+  </div>
+  <div id="locale-placeholder" data-locale="guj" style="display: none;"></div>
+  <script src="script.js"></script>
+</body>
+</html>

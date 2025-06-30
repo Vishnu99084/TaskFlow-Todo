@@ -1,0 +1,111 @@
+body.dark-theme {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+}
+
+.title-section {
+  margin-bottom: 2rem;
+}
+
+.title-section .logo {
+  font-size: 3rem;
+}
+
+.title-section h1 {
+  font-size: 2.2rem;
+  margin: 0.2rem 0;
+  color: #00eaff;
+}
+
+.title-section p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.title-section small {
+  color: #888;
+}
+
+.form-card {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 320px;
+  margin: 0 auto;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-card h2 {
+  margin-bottom: 1.2rem;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #e0f7fa;
+  color: #333;
+}
+
+button {
+  margin-top: 1.4rem;
+  padding: 0.7rem;
+  background: linear-gradient(to right, #00eaff, #5b86e5);
+  color: #000;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+}
+
+.error {
+  color: #ff6b6b;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.legal-text {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  color: #aaa;
+}
+
+
+@media screen and (max-width: 360px) {
+  .form-card {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
